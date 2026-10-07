@@ -1,0 +1,11 @@
+inputSet:
+  name: asdfsadf
+  identifier: asdfsadf
+  orgIdentifier: ReleaseManagement
+  projectIdentifier: releasemanagement
+  pipeline:
+    identifier: remoteISTest
+    variables:
+      - name: var1
+        type: String
+        value: sdfsdf
