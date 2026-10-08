@@ -1,0 +1,10 @@
+name: IS
+id: IS
+global: {}
+phases:
+  - id: phase
+    activities:
+      - id: input
+        inputs:
+          test:
+            value: shashank
