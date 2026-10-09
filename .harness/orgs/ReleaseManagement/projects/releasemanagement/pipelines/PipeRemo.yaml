@@ -1,0 +1,23 @@
+pipeline:
+  name: PipeRemo
+  identifier: PipeRemo
+  tags: {}
+  projectIdentifier: releasemanagement
+  orgIdentifier: ReleaseManagement
+  stages:
+    - stage:
+        name: stage
+        identifier: stage
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  name: abc
+                  identifier: abc
+                  template:
+                    templateRef: account.ShellTeamp
+                    versionLabel: v1
+                    gitBranch: 29-07-1
+        tags: {}
