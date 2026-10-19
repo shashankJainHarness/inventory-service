@@ -11,4 +11,15 @@ process:
           - account._account_all_users
         depends-on: []
         outputs: {}
-        activities: []
+        activities:
+          - activity: ActivityRemoteInventorySvc
+            id: ActivityRemoteInventorySvc
+            name: ActivityRemoteInventorySvc
+            description: ""
+            depends-on: []
+          - activity: ActivityRemoteInventorySvc
+            id: ActivityRemoteInventorySvc2
+            name: ActivityRemoteInventorySvc2
+            description: ""
+            depends-on: []
+            gitBranch: feature/process-1
