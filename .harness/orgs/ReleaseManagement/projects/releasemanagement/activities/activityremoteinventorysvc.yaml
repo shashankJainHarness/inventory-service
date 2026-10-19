@@ -10,6 +10,10 @@ activity:
       readOnly: false
       value: shashank
   name: ActivityRemoteInventorySvc
-  outputs: {}
+  outputs:
+    featureProcessVar:
+      type: string
+      value: shashank
+      description: ""
   manual:
     tasks: []
