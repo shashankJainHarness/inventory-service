@@ -1,0 +1,8 @@
+activity:
+  description: ""
+  id: ActivityRemoteInventorySvc
+  inputs: {}
+  name: ActivityRemoteInventorySvc
+  outputs: {}
+  manual:
+    tasks: []
