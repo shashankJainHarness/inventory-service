@@ -10,7 +10,11 @@ activity:
       readOnly: false
       value: abhishek
   name: ActivityRemoteInventorySvc
-  outputs: {}
+  outputs:
+    featureProcess1Var:
+      type: string
+      value: abhishek
+      description: ""
   manual:
     tasks:
       - id: task
