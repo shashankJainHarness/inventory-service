@@ -5,4 +5,14 @@ activity:
   name: ActivityRemoteInventorySvc
   outputs: {}
   manual:
-    tasks: []
+    tasks:
+      - id: task
+        name: task
+        required: true
+        description: ""
+        duration: 1d
+        userGroups:
+          - account._account_all_users
+        users: []
+        execute:
+          processes: none
