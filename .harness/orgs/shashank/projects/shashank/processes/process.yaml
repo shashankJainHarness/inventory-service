@@ -17,3 +17,8 @@ process:
             name: TestOpaWarn1
             description: ""
             depends-on: []
+          - activity: UISvcActivity
+            id: UISvcActivity
+            name: UISvcActivity
+            description: ""
+            depends-on: []
