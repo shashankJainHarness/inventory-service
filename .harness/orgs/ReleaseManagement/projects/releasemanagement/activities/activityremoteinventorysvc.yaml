@@ -5,14 +5,4 @@ activity:
   name: ActivityRemoteInventorySvc
   outputs: {}
   manual:
-    tasks:
-      - id: featureprocess1
-        name: feature/process-1
-        required: true
-        description: ""
-        duration: 1d
-        userGroups:
-          - account._account_all_users
-        users: []
-        execute:
-          processes: none
+    tasks: []
