@@ -1,7 +1,14 @@
 activity:
   description: ""
   id: ActivityRemoteInventorySvc
-  inputs: {}
+  inputs:
+    featureProcessVar:
+      description: ""
+      type: string
+      default: shashank
+      optional: false
+      readOnly: false
+      value: shashank
   name: ActivityRemoteInventorySvc
   outputs: {}
   manual:
