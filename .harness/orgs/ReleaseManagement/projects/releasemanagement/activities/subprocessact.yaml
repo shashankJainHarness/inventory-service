@@ -1,0 +1,8 @@
+activity:
+  description: ""
+  id: subprocessAct
+  inputs: {}
+  name: subprocessAct
+  outputs: {}
+  process:
+    id: RemoteProcessBugBash
