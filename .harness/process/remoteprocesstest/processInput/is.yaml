@@ -8,3 +8,16 @@ phases:
         inputs:
           test:
             value: shashank
+            readOnly: false
+            optional: false
+      - id: edaefae
+        inputs:
+          dfsdfs:
+            value: <+releaseInput.phase.sdfsdf>
+          fsdsdf:
+            value: <+releaseInput.phase.sdfsdfsf>
+    inputs:
+      sdfsdfsf:
+        type: string
+      sdfsdf:
+        type: string
