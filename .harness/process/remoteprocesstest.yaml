@@ -22,3 +22,8 @@ process:
             name: input
             description: ""
             depends-on: []
+          - activity: edaefae
+            id: edaefae
+            name: edaefae
+            description: ""
+            depends-on: []
